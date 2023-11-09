@@ -1,0 +1,42 @@
+<div class="container"> 
+  <div class=" py-1 mb-3 border-bottom">
+
+ 
+    <nav class="nav col-12 nav-underline justify-content-between ">  
+      
+
+      
+      <!-- <div class="text-left">
+        <img src="../../assets/MASJID.png"  width="50"  height="50" class="rounded-circle me-1" alt="">
+         <span class="badge rounded-pill text-body-emphasis text-bg-light">GovtApp</span>  
+      </div> -->
+      <a class="nav-link px-2 link-body-emphasis" routerLinkActive="active"  routerLink="/home" [routerLinkActiveOptions]="{exact:true}" ><i class="fa fa-home" style="font-size:35px" aria-hidden="true"></i> </a>
+    
+      <a class="nav-link px-2 link-body-emphasis" routerLinkActive="active" routerLink="/section"><i class="fa fa-picture-o" style="font-size:35px" aria-hidden="true"></i></a>      
+      <a class="nav-link px-2 link-body-emphasis" routerLinkActive="active"  routerLink="/gallery"><i class="fa fa-film" style="font-size:35px" aria-hidden="true"></i></a>
+ 
+      <a class="nav-link px-2 link-body-emphasis " routerLinkActive="active" routerLink="/video"><i class="fa fa-envelope-open-o" style="font-size:35px"  aria-hidden="true"></i></a>
+   
+    
+
+      <div class="dropdown">
+        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <img routerLink="/dash" src="../../assets/baby.jpg" alt="" width="60" height="60" class="rounded-circle me-2">
+          <strong class="badge rounded-pill text-bg-info"></strong>
+        </a>      
+  
+        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+          <li><a class="dropdown-item" href="#">Permissions</a></li>
+          <li><a class="dropdown-item" href="#">Security</a></li>
+          <li><a class="dropdown-item" href="#">Settings</a></li>
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Sign out</a></li>
+        </ul>
+      </div>
+
+     </nav>  
+  </div>
+</div>
+<router-outlet></router-outlet>
+
